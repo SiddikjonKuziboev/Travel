@@ -7,23 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0F3E5F28111306005C62D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E5E28111306005C62D2 /* Extensions.swift */; };
+		4D0F3E6128111711005C62D2 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6028111711005C62D2 /* Cache.swift */; };
+		4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6228111752005C62D2 /* RegisterVC.swift */; };
+		4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6328111752005C62D2 /* RegisterVC.xib */; };
+		4D0F3E67281119FC005C62D2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E66281119FC005C62D2 /* TabBarController.swift */; };
+		4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6828112162005C62D2 /* HotelsVC.swift */; };
+		4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6928112162005C62D2 /* HotelsVC.xib */; };
+		4D0F3E6E28112321005C62D2 /* RentCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6C28112321005C62D2 /* RentCarVC.swift */; };
+		4D0F3E6F28112321005C62D2 /* RentCarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6D28112321005C62D2 /* RentCarVC.xib */; };
+		4D9EC42D28152239006D06FB /* UserDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC42C28152239006D06FB /* UserDM.swift */; };
+		4D9EC42F281522F0006D06FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC42E281522F0006D06FB /* Constants.swift */; };
+		4D9EC431281525CE006D06FB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC430281525CE006D06FB /* Alert.swift */; };
+		4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC43228152907006D06FB /* Ext+UIWindow.swift */; };
 		4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4876E280FD0F500401107 /* AppDelegate.swift */; };
-		4DA48771280FD0F500401107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48770280FD0F500401107 /* SceneDelegate.swift */; };
-		4DA48773280FD0F500401107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48772280FD0F500401107 /* ViewController.swift */; };
-		4DA48776280FD0F500401107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48774280FD0F500401107 /* Main.storyboard */; };
 		4DA48778280FD0F900401107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48777280FD0F900401107 /* Assets.xcassets */; };
 		4DA4877B280FD0F900401107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48779280FD0F900401107 /* LaunchScreen.storyboard */; };
+		4DA48784280FD16000401107 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48782280FD16000401107 /* MainVC.swift */; };
+		4DA48785280FD16000401107 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48783280FD16000401107 /* MainVC.xib */; };
+		4DA4878B280FD27900401107 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48789280FD27900401107 /* LoginVC.swift */; };
+		4DA4878C280FD27900401107 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4878A280FD27900401107 /* LoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0F3E5E28111306005C62D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D0F3E6028111711005C62D2 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		4D0F3E6228111752005C62D2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		4D0F3E6328111752005C62D2 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		4D0F3E66281119FC005C62D2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4D0F3E6828112162005C62D2 /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
+		4D0F3E6928112162005C62D2 /* HotelsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelsVC.xib; sourceTree = "<group>"; };
+		4D0F3E6C28112321005C62D2 /* RentCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCarVC.swift; sourceTree = "<group>"; };
+		4D0F3E6D28112321005C62D2 /* RentCarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RentCarVC.xib; sourceTree = "<group>"; };
+		4D9EC42C28152239006D06FB /* UserDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDM.swift; sourceTree = "<group>"; };
+		4D9EC42E281522F0006D06FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D9EC430281525CE006D06FB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4D9EC43228152907006D06FB /* Ext+UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIWindow.swift"; sourceTree = "<group>"; };
 		4DA4876B280FD0F500401107 /* Travel Agency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Agency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA4876E280FD0F500401107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DA48770280FD0F500401107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DA48772280FD0F500401107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DA48775280FD0F500401107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DA48777280FD0F900401107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA4877A280FD0F900401107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA4877C280FD0F900401107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA48782280FD16000401107 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4DA48783280FD16000401107 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		4DA48789280FD27900401107 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4DA4878A280FD27900401107 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		4DA4878D280FF73500401107 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0F3E5D281112DB005C62D2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F3E5E28111306005C62D2 /* Extensions.swift */,
+				4D9EC430281525CE006D06FB /* Alert.swift */,
+				4D0F3E6028111711005C62D2 /* Cache.swift */,
+				4D9EC43228152907006D06FB /* Ext+UIWindow.swift */,
+				4D9EC42E281522F0006D06FB /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4D0F3E7028112404005C62D2 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DA48782280FD16000401107 /* MainVC.swift */,
+				4DA48783280FD16000401107 /* MainVC.xib */,
+				4D0F3E6828112162005C62D2 /* HotelsVC.swift */,
+				4D0F3E6928112162005C62D2 /* HotelsVC.xib */,
+				4D0F3E6C28112321005C62D2 /* RentCarVC.swift */,
+				4D0F3E6D28112321005C62D2 /* RentCarVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		4DA48762280FD0F500401107 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +111,43 @@
 			isa = PBXGroup;
 			children = (
 				4DA4876E280FD0F500401107 /* AppDelegate.swift */,
-				4DA48770280FD0F500401107 /* SceneDelegate.swift */,
-				4DA48772280FD0F500401107 /* ViewController.swift */,
-				4DA48774280FD0F500401107 /* Main.storyboard */,
+				4D0F3E5D281112DB005C62D2 /* Helper */,
+				4DA48786280FD23700401107 /* Model */,
+				4DA48787280FD24500401107 /* Views */,
+				4D0F3E66281119FC005C62D2 /* TabBarController.swift */,
 				4DA48777280FD0F900401107 /* Assets.xcassets */,
 				4DA48779280FD0F900401107 /* LaunchScreen.storyboard */,
 				4DA4877C280FD0F900401107 /* Info.plist */,
 			);
 			path = "Travel Agency";
+			sourceTree = "<group>";
+		};
+		4DA48786280FD23700401107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D9EC42C28152239006D06FB /* UserDM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DA48787280FD24500401107 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F3E7028112404005C62D2 /* MainVC */,
+				4DA48788280FD24E00401107 /* LoginPages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DA48788280FD24E00401107 /* LoginPages */ = {
+			isa = PBXGroup;
+			children = (
+				4DA48789280FD27900401107 /* LoginVC.swift */,
+				4DA4878A280FD27900401107 /* LoginVC.xib */,
+				4D0F3E6228111752005C62D2 /* RegisterVC.swift */,
+				4D0F3E6328111752005C62D2 /* RegisterVC.xib */,
+			);
+			path = LoginPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +192,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 4DA48762280FD0F500401107;
 			productRefGroup = 4DA4876C280FD0F500401107 /* Products */;
@@ -125,9 +209,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA48785280FD16000401107 /* MainVC.xib in Resources */,
+				4D0F3E6F28112321005C62D2 /* RentCarVC.xib in Resources */,
 				4DA4877B280FD0F900401107 /* LaunchScreen.storyboard in Resources */,
+				4DA4878C280FD27900401107 /* LoginVC.xib in Resources */,
+				4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */,
 				4DA48778280FD0F900401107 /* Assets.xcassets in Resources */,
-				4DA48776280FD0F500401107 /* Main.storyboard in Resources */,
+				4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +226,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA48773280FD0F500401107 /* ViewController.swift in Sources */,
 				4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */,
-				4DA48771280FD0F500401107 /* SceneDelegate.swift in Sources */,
+				4D9EC42F281522F0006D06FB /* Constants.swift in Sources */,
+				4D9EC42D28152239006D06FB /* UserDM.swift in Sources */,
+				4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */,
+				4D0F3E6128111711005C62D2 /* Cache.swift in Sources */,
+				4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */,
+				4DA48784280FD16000401107 /* MainVC.swift in Sources */,
+				4D9EC431281525CE006D06FB /* Alert.swift in Sources */,
+				4D0F3E6E28112321005C62D2 /* RentCarVC.swift in Sources */,
+				4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */,
+				4D0F3E67281119FC005C62D2 /* TabBarController.swift in Sources */,
+				4DA4878B280FD27900401107 /* LoginVC.swift in Sources */,
+				4D0F3E5F28111306005C62D2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DA48774280FD0F500401107 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DA48775280FD0F500401107 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DA48779280FD0F900401107 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4DA4877A280FD0F900401107 /* Base */,
+				4DA4878D280FF73500401107 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -292,9 +385,10 @@
 				INFOPLIST_FILE = "Travel Agency/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +398,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +414,10 @@
 				INFOPLIST_FILE = "Travel Agency/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +427,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
