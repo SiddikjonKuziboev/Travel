@@ -46,13 +46,13 @@ class RegisterVC: UIViewController {
             if passwordTF.text! == "" || confirmPasswordTF.text! == "" {
                 Alert.showAlert(state: .warning, message: "The password is mandatory")
             }else {
-                if phoneTF.text! == "" || phoneTF.text!.count < 7  {
+                if phoneTF.text! == "" || phoneTF.text!.count == 17  {
                     Alert.showAlert(state: .warning, message: "The phone   is mandatory")
                 }else {
                     if passwordTF.text!.count <= 5 || confirmPasswordTF.text! != passwordTF.text! {
                         Alert.showAlert(state: .warning, message: "The password be greater than five or not equal")
                     }else {
-                        let userData = UserDM(name: nameTF.text!, lastName: surnameTF.text!, phoneNumber: phoneTF.text!.replacingOccurrences(of: " ", with: ""), password: passwordTF.text!)
+                        let userData = UserDM(name: nameTF.text!, lastName: surnameTF.text!, phoneNumber: phoneTF.text!.replacingOccurrences(of: " ", with: ""), password: passwordTF.text!, token: UUID().uuidString)
                         Cache.saveUserData(data: userData)
                         UIWindow.goToMainTabbar()
                     }

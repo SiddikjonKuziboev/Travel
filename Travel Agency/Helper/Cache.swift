@@ -9,7 +9,7 @@ import Foundation
 
 class Cache {
     
-    class func saveUserData(data: UserDM) {
+    class func saveUserData(data: UserDM?) {
         let encoder = JSONEncoder()
         if let encodeData = try? encoder.encode(data) {
             UserDefaults.standard.set(encodeData, forKey: Constants.userData)

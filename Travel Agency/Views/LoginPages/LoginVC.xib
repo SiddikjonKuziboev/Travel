@@ -72,19 +72,19 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="DwZ-ps-LW1">
-                    <rect key="frame" x="30" y="74" width="354" height="365"/>
+                    <rect key="frame" x="30" y="74" width="354" height="370"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="GSF-q3-pBl">
-                            <rect key="frame" x="0.0" y="0.0" width="354" height="95"/>
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="100"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ew0-Q9-S7f">
-                                    <rect key="frame" x="152.5" y="0.0" width="49.5" height="24"/>
-                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <rect key="frame" x="147.5" y="0.0" width="59" height="29"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3F-vJ-eJC">
-                                    <rect key="frame" x="106.5" y="54" width="141.5" height="41"/>
+                                    <rect key="frame" x="106.5" y="59" width="141.5" height="41"/>
                                     <string key="text">Welcome back,
 Sign in to continue</string>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -94,7 +94,7 @@ Sign in to continue</string>
                             </subviews>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rgo-Jr-b7k">
-                            <rect key="frame" x="0.0" y="245" width="354" height="120"/>
+                            <rect key="frame" x="0.0" y="250" width="354" height="120"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nzo-Se-pry">
                                     <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
@@ -125,7 +125,7 @@ Sign in to continue</string>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MQh-Vl-npB">
                                             <rect key="frame" x="25" y="6" width="304" height="38"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                            <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -147,7 +147,7 @@ Sign in to continue</string>
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktZ-Fq-6zA">
-                    <rect key="frame" x="269" y="447" width="115" height="30"/>
+                    <rect key="frame" x="269" y="452" width="115" height="30"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" title="Forgot password"/>
                     <connections>

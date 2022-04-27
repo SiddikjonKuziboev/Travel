@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D0F3E5F28111306005C62D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E5E28111306005C62D2 /* Extensions.swift */; };
+		10D3ED52F593C010D80E4960 /* Pods_Travel_Agency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */; };
+		4D0F3E5F28111306005C62D2 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E5E28111306005C62D2 /* Ext+String.swift */; };
 		4D0F3E6128111711005C62D2 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6028111711005C62D2 /* Cache.swift */; };
 		4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6228111752005C62D2 /* RegisterVC.swift */; };
 		4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6328111752005C62D2 /* RegisterVC.xib */; };
@@ -20,6 +21,17 @@
 		4D9EC42F281522F0006D06FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC42E281522F0006D06FB /* Constants.swift */; };
 		4D9EC431281525CE006D06FB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC430281525CE006D06FB /* Alert.swift */; };
 		4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC43228152907006D06FB /* Ext+UIWindow.swift */; };
+		4D9EC43728155129006D06FB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC43528155129006D06FB /* ProfileVC.swift */; };
+		4D9EC43828155129006D06FB /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EC43628155129006D06FB /* ProfileVC.xib */; };
+		4D9EC44528155575006D06FB /* CustomSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EC44328155575006D06FB /* CustomSectionHeader.xib */; };
+		4D9EC44628155575006D06FB /* CustomSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC44428155575006D06FB /* CustomSectionHeader.swift */; };
+		4D9EC44828165828006D06FB /* Ext+UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC44728165828006D06FB /* Ext+UIVC.swift */; };
+		4D9EC44B28165877006D06FB /* Ext+UNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC44A28165877006D06FB /* Ext+UNC.swift */; };
+		4D9EC44F28166735006D06FB /* TopCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC44D28166735006D06FB /* TopCVC.swift */; };
+		4D9EC45028166735006D06FB /* TopCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EC44E28166735006D06FB /* TopCVC.xib */; };
+		4D9EC4532816674E006D06FB /* AnimateCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC4512816674E006D06FB /* AnimateCVC.swift */; };
+		4D9EC4542816674E006D06FB /* AnimateCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EC4522816674E006D06FB /* AnimateCVC.xib */; };
+		4D9EC4562816684E006D06FB /* Ext+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC4552816684E006D06FB /* Ext+Cell.swift */; };
 		4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4876E280FD0F500401107 /* AppDelegate.swift */; };
 		4DA48778280FD0F900401107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48777280FD0F900401107 /* Assets.xcassets */; };
 		4DA4877B280FD0F900401107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48779280FD0F900401107 /* LaunchScreen.storyboard */; };
@@ -27,10 +39,14 @@
 		4DA48785280FD16000401107 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48783280FD16000401107 /* MainVC.xib */; };
 		4DA4878B280FD27900401107 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48789280FD27900401107 /* LoginVC.swift */; };
 		4DA4878C280FD27900401107 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4878A280FD27900401107 /* LoginVC.xib */; };
+		4DEA44F82817BFBE00093536 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */; };
+		4DEA44FB2817C1C500093536 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEA44FA2817C1C500093536 /* FirebaseAnalytics */; };
+		4DEA44FD2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D0F3E5E28111306005C62D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_Agency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0F3E5E28111306005C62D2 /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		4D0F3E6028111711005C62D2 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		4D0F3E6228111752005C62D2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		4D0F3E6328111752005C62D2 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
@@ -43,6 +59,17 @@
 		4D9EC42E281522F0006D06FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D9EC430281525CE006D06FB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		4D9EC43228152907006D06FB /* Ext+UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIWindow.swift"; sourceTree = "<group>"; };
+		4D9EC43528155129006D06FB /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		4D9EC43628155129006D06FB /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		4D9EC44328155575006D06FB /* CustomSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSectionHeader.xib; sourceTree = "<group>"; };
+		4D9EC44428155575006D06FB /* CustomSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSectionHeader.swift; sourceTree = "<group>"; };
+		4D9EC44728165828006D06FB /* Ext+UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIVC.swift"; sourceTree = "<group>"; };
+		4D9EC44A28165877006D06FB /* Ext+UNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UNC.swift"; sourceTree = "<group>"; };
+		4D9EC44D28166735006D06FB /* TopCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCVC.swift; sourceTree = "<group>"; };
+		4D9EC44E28166735006D06FB /* TopCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCVC.xib; sourceTree = "<group>"; };
+		4D9EC4512816674E006D06FB /* AnimateCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCVC.swift; sourceTree = "<group>"; };
+		4D9EC4522816674E006D06FB /* AnimateCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimateCVC.xib; sourceTree = "<group>"; };
+		4D9EC4552816684E006D06FB /* Ext+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Cell.swift"; sourceTree = "<group>"; };
 		4DA4876B280FD0F500401107 /* Travel Agency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Agency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA4876E280FD0F500401107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA48777280FD0F900401107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +80,9 @@
 		4DA48789280FD27900401107 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4DA4878A280FD27900401107 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		4DA4878D280FF73500401107 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.debug.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.debug.xcconfig"; sourceTree = "<group>"; };
+		C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.release.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEA44FB2817C1C500093536 /* FirebaseAnalytics in Frameworks */,
+				4DEA44FD2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				10D3ED52F593C010D80E4960 /* Pods_Travel_Agency.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,11 +102,10 @@
 		4D0F3E5D281112DB005C62D2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				4D0F3E5E28111306005C62D2 /* Extensions.swift */,
 				4D9EC430281525CE006D06FB /* Alert.swift */,
 				4D0F3E6028111711005C62D2 /* Cache.swift */,
-				4D9EC43228152907006D06FB /* Ext+UIWindow.swift */,
 				4D9EC42E281522F0006D06FB /* Constants.swift */,
+				4D9EC44928165838006D06FB /* Extensions */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -81,14 +113,82 @@
 		4D0F3E7028112404005C62D2 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
+				4D9EC439281553B0006D06FB /* MainVC */,
+				4D9EC43A281553B8006D06FB /* Hotel */,
+				4D9EC43B281553BF006D06FB /* RentCar */,
+				4D9EC43C281553C7006D06FB /* Profile */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		4D9EC43428155027006D06FB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F3E66281119FC005C62D2 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		4D9EC439281553B0006D06FB /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
 				4DA48782280FD16000401107 /* MainVC.swift */,
 				4DA48783280FD16000401107 /* MainVC.xib */,
+				4D9EC44C28166714006D06FB /* CVC */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		4D9EC43A281553B8006D06FB /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
 				4D0F3E6828112162005C62D2 /* HotelsVC.swift */,
 				4D0F3E6928112162005C62D2 /* HotelsVC.xib */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		4D9EC43B281553BF006D06FB /* RentCar */ = {
+			isa = PBXGroup;
+			children = (
 				4D0F3E6C28112321005C62D2 /* RentCarVC.swift */,
 				4D0F3E6D28112321005C62D2 /* RentCarVC.xib */,
 			);
-			path = MainVC;
+			path = RentCar;
+			sourceTree = "<group>";
+		};
+		4D9EC43C281553C7006D06FB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4D9EC43528155129006D06FB /* ProfileVC.swift */,
+				4D9EC43628155129006D06FB /* ProfileVC.xib */,
+				4D9EC44428155575006D06FB /* CustomSectionHeader.swift */,
+				4D9EC44328155575006D06FB /* CustomSectionHeader.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4D9EC44928165838006D06FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F3E5E28111306005C62D2 /* Ext+String.swift */,
+				4D9EC4552816684E006D06FB /* Ext+Cell.swift */,
+				4D9EC44A28165877006D06FB /* Ext+UNC.swift */,
+				4D9EC43228152907006D06FB /* Ext+UIWindow.swift */,
+				4D9EC44728165828006D06FB /* Ext+UIVC.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D9EC44C28166714006D06FB /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D9EC44D28166735006D06FB /* TopCVC.swift */,
+				4D9EC44E28166735006D06FB /* TopCVC.xib */,
+				4D9EC4512816674E006D06FB /* AnimateCVC.swift */,
+				4D9EC4522816674E006D06FB /* AnimateCVC.xib */,
+			);
+			path = CVC;
 			sourceTree = "<group>";
 		};
 		4DA48762280FD0F500401107 = {
@@ -96,6 +196,8 @@
 			children = (
 				4DA4876D280FD0F500401107 /* Travel Agency */,
 				4DA4876C280FD0F500401107 /* Products */,
+				CE30BA6DC410459BBF61A4DB /* Pods */,
+				F7A9CD99ACB95FA56BD44AAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,10 +216,10 @@
 				4D0F3E5D281112DB005C62D2 /* Helper */,
 				4DA48786280FD23700401107 /* Model */,
 				4DA48787280FD24500401107 /* Views */,
-				4D0F3E66281119FC005C62D2 /* TabBarController.swift */,
 				4DA48777280FD0F900401107 /* Assets.xcassets */,
 				4DA48779280FD0F900401107 /* LaunchScreen.storyboard */,
 				4DA4877C280FD0F900401107 /* Info.plist */,
+				4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */,
 			);
 			path = "Travel Agency";
 			sourceTree = "<group>";
@@ -133,8 +235,9 @@
 		4DA48787280FD24500401107 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D0F3E7028112404005C62D2 /* MainVC */,
 				4DA48788280FD24E00401107 /* LoginPages */,
+				4D9EC43428155027006D06FB /* TabBarController */,
+				4D0F3E7028112404005C62D2 /* MainVC */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +253,23 @@
 			path = LoginPages;
 			sourceTree = "<group>";
 		};
+		CE30BA6DC410459BBF61A4DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */,
+				C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7A9CD99ACB95FA56BD44AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,15 +277,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA4877F280FD0F900401107 /* Build configuration list for PBXNativeTarget "Travel Agency" */;
 			buildPhases = (
+				CA8FB0DB1880D185AF80C4C3 /* [CP] Check Pods Manifest.lock */,
 				4DA48767280FD0F500401107 /* Sources */,
 				4DA48768280FD0F500401107 /* Frameworks */,
 				4DA48769280FD0F500401107 /* Resources */,
+				A4368947F64C2017325E439D /* [CP] Embed Pods Frameworks */,
+				4DEA44FE2817C32500093536 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Travel Agency";
+			packageProductDependencies = (
+				4DEA44FA2817C1C500093536 /* FirebaseAnalytics */,
+				4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
 			productName = "Travel Agency";
 			productReference = 4DA4876B280FD0F500401107 /* Travel Agency.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +322,9 @@
 				ru,
 			);
 			mainGroup = 4DA48762280FD0F500401107;
+			packageReferences = (
+				4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4DA4876C280FD0F500401107 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -209,17 +339,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9EC43828155129006D06FB /* ProfileVC.xib in Resources */,
 				4DA48785280FD16000401107 /* MainVC.xib in Resources */,
+				4D9EC4542816674E006D06FB /* AnimateCVC.xib in Resources */,
+				4D9EC44528155575006D06FB /* CustomSectionHeader.xib in Resources */,
 				4D0F3E6F28112321005C62D2 /* RentCarVC.xib in Resources */,
+				4DEA44F82817BFBE00093536 /* GoogleService-Info.plist in Resources */,
 				4DA4877B280FD0F900401107 /* LaunchScreen.storyboard in Resources */,
 				4DA4878C280FD27900401107 /* LoginVC.xib in Resources */,
 				4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */,
 				4DA48778280FD0F900401107 /* Assets.xcassets in Resources */,
+				4D9EC45028166735006D06FB /* TopCVC.xib in Resources */,
 				4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DEA44FE2817C32500093536 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		A4368947F64C2017325E439D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8FB0DB1880D185AF80C4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travel Agency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DA48767280FD0F500401107 /* Sources */ = {
@@ -228,17 +424,24 @@
 			files = (
 				4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */,
 				4D9EC42F281522F0006D06FB /* Constants.swift in Sources */,
+				4D9EC43728155129006D06FB /* ProfileVC.swift in Sources */,
 				4D9EC42D28152239006D06FB /* UserDM.swift in Sources */,
 				4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */,
+				4D9EC44B28165877006D06FB /* Ext+UNC.swift in Sources */,
 				4D0F3E6128111711005C62D2 /* Cache.swift in Sources */,
 				4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */,
+				4D9EC44F28166735006D06FB /* TopCVC.swift in Sources */,
 				4DA48784280FD16000401107 /* MainVC.swift in Sources */,
+				4D9EC4532816674E006D06FB /* AnimateCVC.swift in Sources */,
 				4D9EC431281525CE006D06FB /* Alert.swift in Sources */,
 				4D0F3E6E28112321005C62D2 /* RentCarVC.swift in Sources */,
+				4D9EC4562816684E006D06FB /* Ext+Cell.swift in Sources */,
 				4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */,
 				4D0F3E67281119FC005C62D2 /* TabBarController.swift in Sources */,
+				4D9EC44828165828006D06FB /* Ext+UIVC.swift in Sources */,
+				4D9EC44628155575006D06FB /* CustomSectionHeader.swift in Sources */,
 				4DA4878B280FD27900401107 /* LoginVC.swift in Sources */,
-				4D0F3E5F28111306005C62D2 /* Extensions.swift in Sources */,
+				4D0F3E5F28111306005C62D2 /* Ext+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +578,7 @@
 		};
 		4DA48780280FD0F900401107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,6 +608,7 @@
 		};
 		4DA48781280FD0F900401107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +658,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DEA44FA2817C1C500093536 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DA48763280FD0F500401107 /* Project object */;
 }

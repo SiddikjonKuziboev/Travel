@@ -54,11 +54,7 @@ class Alert {
         }
         
         UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn) {
-            if let height = alertView.window?.windowScene?.statusBarManager?.statusBarFrame.height {
                 alertView.transform = CGAffineTransform.init(translationX: 0, y: 90)
-
-            }
-
         }
         
         let swipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(swippedGesture))

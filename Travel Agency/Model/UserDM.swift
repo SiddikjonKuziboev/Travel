@@ -12,4 +12,5 @@ struct UserDM: Codable {
     var lastName: String?
     var phoneNumber: String
     var password: String
+    var token: String?
 }

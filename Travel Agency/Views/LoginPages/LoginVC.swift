@@ -47,8 +47,10 @@ class LoginVC: UIViewController {
     
     @IBAction func loginBtnPressed(_ sender: Any) {
         let userData = Cache.getUserData()
-        if let userData = userData {
+        if var userData = userData {
             if  phoneNumber.replacingOccurrences(of: " ", with: "") == userData.phoneNumber && userData.password == passwordTF.text! {
+             userData.token = UUID().uuidString
+                Cache.saveUserData(data: userData)
                 UIWindow.goToMainTabbar()
             }else {
                 Alert.showAlert(state: .error, duration: 4, message: "Check phone number or password incorrect")

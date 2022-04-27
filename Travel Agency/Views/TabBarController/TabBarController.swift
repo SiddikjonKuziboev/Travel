@@ -18,11 +18,11 @@ class TabBarController: UITabBarController {
 
     func setUpVC() {
         
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0, green: 0.6980392157, blue: 0.9607843137, alpha: 1)], for:.selected)
         tabBar.backgroundColor = .white
-        self.tabBar.layer.borderColor = #colorLiteral(red: 0, green: 0.6980392157, blue: 0.9607843137, alpha: 0.5466381351)
-        self.tabBar.layer.borderWidth = 1
+        self.tabBar.layer.borderColor = #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
+        self.tabBar.layer.borderWidth = 0.2
         self.tabBar.clipsToBounds = false
+        tabBar.tintColor = #colorLiteral(red: 0, green: 0.6980392157, blue: 0.9607843137, alpha: 1)
         
         //Home
         let homeNav = UINavigationController(rootViewController: MainVC(nibName: "MainVC", bundle: nil))
@@ -38,7 +38,12 @@ class TabBarController: UITabBarController {
         let rentCar = UINavigationController(rootViewController: RentCarVC(nibName: "RentCarVC", bundle: nil))
         rentCar.backBtn(nav: rentCar)
         rentCar.tabBarItem.image = UIImage(systemName: "car.2")
-      
-        viewControllers = [homeNav, hotels, rentCar]
+        
+        //Profile
+        let profile = UINavigationController(rootViewController: ProfileVC(nibName: "ProfileVC", bundle: nil))
+        profile.backBtn(nav: profile)
+        profile.hideBar()
+        profile.tabBarItem.image = UIImage(systemName: "person.fill.viewfinder")
+        viewControllers = [homeNav, hotels, rentCar, profile]
     }
 }

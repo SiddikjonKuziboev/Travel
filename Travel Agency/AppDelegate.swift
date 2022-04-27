@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 let screenSize = UIScreen.main.bounds.size
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,10 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let vc = LoginVC(nibName: "LoginVC", bundle: nil)
-        let nav = UINavigationController(rootViewController: vc)
+        
         window = UIWindow()
-        window?.rootViewController =  nav
+        FirebaseApp.configure()
+        if let _ = Cache.getUserData()?.token {
+            window?.rootViewController = TabBarController()
+        }else {
+            let vc = LoginVC(nibName: "LoginVC", bundle: nil)
+            let nav = UINavigationController(rootViewController: vc)
+            window?.rootViewController =  nav
+        }
+       
         window?.makeKeyAndVisible()
         
         return true
