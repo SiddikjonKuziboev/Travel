@@ -1,20 +1,19 @@
 //
-//  TopCVC.swift
+//  FavoritesTVC.swift
 //  Travel Agency
 //
-//  Created by Kuziboev Siddikjon on 4/25/22.
+//  Created by Kuziboev Siddikjon on 4/29/22.
 //
 
 import UIKit
 
-class TopCVC: UICollectionViewCell {
+class FavoritesTVC: UITableViewCell {
 
-    @IBOutlet weak var imgView: UIImageView!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
-
+    
     
 }

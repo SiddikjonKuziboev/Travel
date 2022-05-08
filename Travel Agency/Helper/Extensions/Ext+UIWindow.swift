@@ -20,7 +20,7 @@ extension UIWindow {
     static func goToLogin() {
         if let keyWindow = keyWindows {
             let vc = LoginVC(nibName: "LoginVC", bundle: nil)
-//            Cache.saveToken(nil)
+            Cache.saveUserData(data: nil)
             keyWindow.rootViewController = UINavigationController.init(rootViewController: vc)
         }
     }

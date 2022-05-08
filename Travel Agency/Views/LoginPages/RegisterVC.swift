@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RegisterVC: UIViewController {
 
@@ -28,6 +29,8 @@ class RegisterVC: UIViewController {
     
     var phoneNumber = "+998"
     
+    var db = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,13 +49,21 @@ class RegisterVC: UIViewController {
             if passwordTF.text! == "" || confirmPasswordTF.text! == "" {
                 Alert.showAlert(state: .warning, message: "The password is mandatory")
             }else {
-                if phoneTF.text! == "" || phoneTF.text!.count == 17  {
-                    Alert.showAlert(state: .warning, message: "The phone   is mandatory")
+                if phoneTF.text! == "" || phoneTF.text!.count != 17 || phoneNumber.replacingOccurrences(of: " ", with: "").prefix(4) != "+998"  {
+                    Alert.showAlert(state: .warning, message: "The phone  is mandatory")
                 }else {
                     if passwordTF.text!.count <= 5 || confirmPasswordTF.text! != passwordTF.text! {
                         Alert.showAlert(state: .warning, message: "The password be greater than five or not equal")
                     }else {
                         let userData = UserDM(name: nameTF.text!, lastName: surnameTF.text!, phoneNumber: phoneTF.text!.replacingOccurrences(of: " ", with: ""), password: passwordTF.text!, token: UUID().uuidString)
+                       
+                        let data : [String : Any] = [
+                            "name" : nameTF.text!,
+                            "surname" : surnameTF.text!,
+                            "password" : passwordTF.text!
+                        ]
+                        
+                        db.collection("users").document(phoneNumber.replacingOccurrences(of: " ", with: "")) .setData(data)
                         Cache.saveUserData(data: userData)
                         UIWindow.goToMainTabbar()
                     }

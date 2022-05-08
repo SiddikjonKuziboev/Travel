@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="Travel_Agency" customModuleProvider="target">
             <connections>
+                <outlet property="loader" destination="Hh8-K4-dS3" id="GLl-tD-yu5"/>
                 <outlet property="loginBtn" destination="Ums-f3-y15" id="0P3-7x-HGP"/>
                 <outlet property="passwordTF" destination="MQh-Vl-npB" id="D89-iH-raI"/>
                 <outlet property="phoneTF" destination="ayZ-iS-ISV" id="eJU-d7-s70"/>
@@ -154,12 +155,17 @@ Sign in to continue</string>
                         <action selector="forgotPassword:" destination="-1" eventType="touchUpInside" id="ehH-hl-KMb"/>
                     </connections>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Hh8-K4-dS3">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="Hh8-K4-dS3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="4Ar-08-sb2"/>
                 <constraint firstItem="ktZ-Fq-6zA" firstAttribute="trailing" secondItem="DwZ-ps-LW1" secondAttribute="trailing" id="5pH-8R-2uY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DwZ-ps-LW1" secondAttribute="trailing" constant="30" id="9jj-9C-ayL"/>
+                <constraint firstItem="Hh8-K4-dS3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LJi-yb-dTo"/>
                 <constraint firstItem="DwZ-ps-LW1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="OAl-hW-Ge0"/>
                 <constraint firstItem="ktZ-Fq-6zA" firstAttribute="top" secondItem="DwZ-ps-LW1" secondAttribute="bottom" constant="8" symbolic="YES" id="RWO-u3-Dbi"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Vza-Lg-e4E" secondAttribute="trailing" constant="30" id="UoY-3K-iu9"/>

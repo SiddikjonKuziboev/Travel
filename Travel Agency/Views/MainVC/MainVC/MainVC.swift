@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RealmSwift
+import Firebase
 
 class MainVC: UIViewController {
     
@@ -13,11 +15,21 @@ class MainVC: UIViewController {
     @IBOutlet weak var topCollectionView: UICollectionView!
     @IBOutlet weak var animateCollectionView: UICollectionView!
     
+    
+    var locations: [LocationDM ] = []
+    var topLocations: [LocationDM] = []
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpCollectionView()
+        
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        getData()
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,9 +38,50 @@ class MainVC: UIViewController {
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         updateCellsLayout()
-        
     }
     
+    func getData() {
+//        MyRealmData.shared.removeLocations()
+        for i in MyRealmData.shared.fetchData() {
+            if i.slogan == "tourist" {
+                topLocations.append(i)
+            }else {
+                locations.append(i)
+            }
+        }
+        if locations == [] {
+           
+            let sampleRecordObj = LocationDM.getLocations()
+                for i in sampleRecordObj {
+                
+                    let cordinate = CoordinateDM()
+                    cordinate.lon = i.coordinate?.lon ?? 0.0
+                    cordinate.lat = i.coordinate?.lat ?? 0.0
+                    let location = LocationDM()
+                    location.itenary = i.itenary
+                    location.desc = i.desc
+                    location.moreWithWeb = i.moreWithWeb
+                    location.coordinate = cordinate
+                    location.image = i.image
+                    location.id = i.id
+                    location.price = i.price
+                    location.slogan = i.slogan
+                    MyRealmData.shared.saveLocations(data: location)
+                }
+            
+            for i in MyRealmData.shared.fetchData() {
+                if i.slogan == "tourist" {
+                    topLocations.append(i)
+                }else {
+                    locations.append(i)
+                }
+            }
+            
+            topCollectionView.reloadData()
+            animateCollectionView.reloadData()
+        }
+     
+    }
 }
 
 //MARK: CollectionView SetupUI
@@ -74,9 +127,9 @@ extension MainVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if topCollectionView == collectionView {
-            return 10
+            return topLocations.count
         }else {
-            return 12
+            return locations.count
         }
     }
     
@@ -84,12 +137,12 @@ extension MainVC: UICollectionViewDataSource {
         
         if topCollectionView == collectionView {
             let cell = topCollectionView.dequeueReusableCell(withReuseIdentifier: TopCVC.identifier, for: indexPath)as! TopCVC
-            
+            cell.imgView.setImage(url: topLocations[indexPath.row].image)
             return cell
             
         }else {
             let cell = animateCollectionView.dequeueReusableCell(withReuseIdentifier: AnimateCVC.identifier, for: indexPath)as! AnimateCVC
-            
+            cell.configureCell(data: locations[indexPath.row])
             return cell
             
         }
@@ -97,12 +150,13 @@ extension MainVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        
+        let vc = PlaceDetailVC(nibName: "PlaceDetailVC", bundle: nil)
         if topCollectionView == collectionView {
-            
+            vc.placeData = topLocations[indexPath.row]
         }else {
-            
+            vc.placeData = locations[indexPath.row]
         }
+        navigationController?.pushViewController(vc, animated: true)
     }
     
    

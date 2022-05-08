@@ -27,6 +27,7 @@ class TabBarController: UITabBarController {
         //Home
         let homeNav = UINavigationController(rootViewController: MainVC(nibName: "MainVC", bundle: nil))
         homeNav.backBtn(nav: homeNav)
+        homeNav.hideBar()
         homeNav.tabBarItem.image = UIImage(systemName: "house")
         
         //Home

@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginVC: UIViewController {
+    @IBOutlet weak var loader: UIActivityIndicatorView!
     @IBOutlet weak var passwordTF: UITextField!
     
     @IBOutlet weak var phoneTF: UITextField!
@@ -29,11 +31,40 @@ class LoginVC: UIViewController {
     }
     
     var phoneNumber: String = "+998"
+    var password = ""
+    let db = Firestore.firestore()
+    var userInfo: UserDM!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         phoneTF.delegate = self
         passwordTF.delegate = self
+        
+    }
+    
+    func getFirestoreData(completion: @escaping (Bool)-> Void) {
+        db.collection("users").getDocuments {[self] querySnapshot, error in
+            if let error = error {
+                print("error \(error)")
+                completion(true)
+
+            }else {
+                print("urre",querySnapshot!.documents)
+                for i in querySnapshot!.documents   {
+                    if i.documentID == self.phoneNumber.replacingOccurrences(of: " ", with: "") {
+                        userInfo = UserDM(
+                            name: i.data()["name"] as! String,
+                            phoneNumber: i.documentID,
+                            password: i.data()["password"] as! String)
+                        completion(true)
+                    }else {
+                        completion(false)
+                    }
+                    
+                }
+            }
+        }
+        
     }
     
     @IBAction func forgotPassword(_ sender: Any) {
@@ -46,19 +77,29 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func loginBtnPressed(_ sender: Any) {
-        let userData = Cache.getUserData()
-        if var userData = userData {
-            if  phoneNumber.replacingOccurrences(of: " ", with: "") == userData.phoneNumber && userData.password == passwordTF.text! {
-             userData.token = UUID().uuidString
-                Cache.saveUserData(data: userData)
-                UIWindow.goToMainTabbar()
-            }else {
-                Alert.showAlert(state: .error, duration: 4, message: "Check phone number or password incorrect")
-
-            }
-        }else {
-            Alert.showAlert(state: .error, duration: 4, message: "User not found or password incorrect")
+        let phone = phoneNumber.replacingOccurrences(of: " ", with: "")
+//        let userData = Cache.getUserData()
+        loader.startAnimating()
+        getFirestoreData {[self] _ in
+            
+                if var userData = userInfo {
+                    if phone == userData.phoneNumber && userData.password == passwordTF.text! {
+                     userData.token = UUID().uuidString
+                        Cache.saveUserData(data: userData)
+                        UIWindow.goToMainTabbar()
+                        loader.stopAnimating()
+                    }else {
+                        Alert.showAlert(state: .error, duration: 4, message: "Check phone number or password incorrect")
+                        loader.stopAnimating()
+                    }
+                    
+                }else {
+                    loader.stopAnimating()
+                    Alert.showAlert(state: .error, duration: 4, message: "User not found or password incorrect")
+                }
+            
         }
+        
     }
     
 }

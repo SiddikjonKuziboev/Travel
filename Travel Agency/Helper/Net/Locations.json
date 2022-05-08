@@ -1,0 +1,184 @@
+[{
+      "itenary" : "Qo'qon",
+      "desc" : "Qo‘qon Buyuk Ipak yo‘lidagi eng qadimiy shahar. Shahar hashamatli yodgorliklarga va ulug‘vor madrasalarga boy va bu ajablanarli emas, chunki Qo‘qon ilm-fan rivojlanishining   markazi edi. Quyidagi diqqatga sazovor joylarni ko‘rishni unutmang: Xudoyorxon saroyi, Jomiy masjidi, Modarixon maqbarasi, Norbut-biya madrasasi, Qo‘qon xonlarining maqbarasi. Qo‘qonning iqlimi barqaror issiq yoz va xuddi shunday barqaror sovuq qish bilan xarakterlanadi. Bu yerda ko‘p yog‘ingarchilik bo‘lmaydi va ularning aksariyati kuzda va bahorda yo‘gadi. Yozda kelganingizda, bosh kiyim va soyabonlarni unutmang, shuningdek ko‘p miqdorda suyuqlik iching.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/qoqon/",
+      "coordinate" : {
+        "lon" : 101.68689999999999,
+        "lat" : 3.1389999999999998
+      },
+      "image" : "https://st4.depositphotos.com/1023102/21203/i/600/depositphotos_212034878-stock-photo-the-khudayar-khan-palace-is.jpg",
+      "id" : 0,
+      "price" : 4145500.00,
+      "slogan" : "Modern & Exclusive "
+    },
+    {
+      "itenary" : "Toshkent",
+      "desc" : "Toshkent – O‘zbekistonning poytaxti va shu bilan birga Markaziy Osiyodagi eng yirik shahardir. Ko'p yillar davomida Toshkent butun dunyodan sayyohlar va ishbilarmonlarni jalb qiladigan mamlakatning eng muhim biznes va madaniy markazi bo'lib kelgan. Eng yaxshi diqqatga sazovor joylar Toshkentda tashrif uchun bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning ro‘yxati juda katta. Sayr qilish uchun keng va yashil xiyobonlar,   favvoralar va ekologik bog‘lar. Shahardagi ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi va madaniyati haqidagi noyob asarlar. Buyuk me'moriy ansambllar, masjidlar va minoralar. Har didga mos teatr va galereyalar. Bu yerda har kim shaharning eng diqqatga sazovor joylarini ko‘rish uchun o‘z yo‘nalishini yaratishi mumkin!",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/toshkent/",
+      "coordinate" : {
+        "lon" : 116.0753,
+        "lat" : 5.9787999999999997
+      },
+      "image" : "https://st2.depositphotos.com/2211028/7189/i/600/depositphotos_71894663-stock-photo-the-fountains-in-the-center.jpg",
+      "id" : 1,
+      "price" : 13147500.00,
+      "slogan" : " Beautiful & Breezy "
+    },
+    {
+      "itenary" : "Samarqand",
+      "desc" : "Samarqandni chinakam noyob shahar, deb atash mumkin!. Dunyoning eng buyuk shoir va faylasuflari uni - qalb bog‘i, sharq durdonasi, dunyoning ko‘zgusi va hatto yer yuzi deb atashganlarida ham, ular bu go‘zal shaharning barcha go‘zalligi va boyliklarini tasvirlab berolmagan bo‘lardilar. Eng yaxshi diqqatga sazovor joylar.  Samarqandning madaniy merosi juda katta. Аsrlar davomida bu shahar Buyuk Ipak yo'lining asosiy markazi bo'lib kelgan. XXI asr boshlarida shahar YuNESKOning Umumjahon merosi ro'yxatiga , Samarqand madaniyatlar chorrahasi nomi bilan kiritildi! Shaharni ziyorat qilsangiz, siz bu yerda joylashgan tarixiy obidalarning sonidan hayratda qolasiz, ammo biz sizga albatta ko'rishga arziydigan eng mashhur diqqatga sazovor joylarni ko'rsatishga harakat qilamiz!",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/samarqand/",
+      "coordinate" : {
+        "lon" : 102.2501,
+        "lat" : 2.1896
+      },
+      "image" : "https://i.ytimg.com/vi/VuRol8-pwD0/maxresdefault.jpg",
+      "id" : 2,
+      "price" : 11147500.00,
+      "slogan" : "Heritage from the 15th Century"
+    },
+    {
+      "itenary" : "Buxoro",
+      "desc" : "Muqaddas Buxoro O‘zbekistonning sayyohlik durdonalaridan biridir.  Tarixiy shahar markazi YUNESKOning Butun jahon merosi ro‘yxatiga kiritilgan. Shaharning yoshi  2500 yildan  oshgan. Bilingki, Buxoroda bo‘lmaganlar ko‘p narsani yo‘qotdilar. Eng yaxshi diqqatga sazovor joylar Qadimiy sharqona ertakning muhitiga tushib qolishni istasangiz, Buxoroning eng diqqatga sazovor joylarini ziyorat qiling: Poi-Kalon meʼmoriy yodgorlik; Ark qalʼasi; Somoniylar maqbarasi; Chashmai Ayub maqbarasi; Magaki-Attari masjidi. Mirzo Ulug‘bek madrasasi, Miri-Arab madrasasi, Lyabi-Xauz ansambli va boshqalar.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/buxoro/",
+      "coordinate" : {
+        "lon" : 100.3327,
+        "lat" : 5.4164000000000003
+      },
+      "image" : "https://teznews.uz/wp-content/uploads/2020/07/minorai-kalon.png",
+      "id" : 3,
+      "price" : 9147500.00,
+      "slogan" : "Colorful, Multicultural Capital of the Malaysian island"
+    },
+    {
+      "itenary" : "Xiva",
+      "desc" : "Xiva - qadimiy devorlar, minoralar va loydan qurilgan betakror binolar shahri. Xivaning yoshi 2500 yildan oshgan. Agar siz tarixga sho‘ng‘ishni va qadimiy Sharqning haqiqiy go‘zalligini ko‘rishni istasangiz, Xivaga tashrif buyuring. Eng yaxshi diqqatga sazovor joylar. Qadimgi Xiva YUNESKOning Butunjahon merosi ro‘yxatiga kiritilgan. Va shunga ko‘ra, barcha diqqatga sazovor joylar dunyo tashkilotining himoyasi ostiga olingan. Xivada nimani ko‘rishingiz mumkin: Asosiy qalʼa - Ichan-Qalʼa, Kunya-Ark qalʼasi, Dishan-Qalʼa; Xivada yuzdan ortiq qadimiy  minoralar, maqbaralar, masjid va madrasalar mavjud; Xiva hukmdorlarining saroylari va turar joylari; Qadimiy karvonsaroylar va hammomlar; Davlat qo‘g‘irchoq teatri va Avesto muzeyi.",
+      "coordinate" : {
+        "lon" : 103.76179999999999,
+        "lat" : 1.4854000000000001
+      },
+      "image" : "https://uzbekistan.travel/storage/app/uploads/public/5e6/b50/604/thumb_477_1140_0_0_0_auto.jpg",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/xiva/",
+      "id" : 4,
+      "price" : 7147500.00,
+      "slogan" : "null"
+    },
+    {
+      "itenary" : "Zomin",
+      "desc" : "Ajoyib landshaftlar va toza tog‘ havosi, flora va faunaning  xilma-xilligi, qadimiy ziyoratgohlar va noyob milliy sihatgoh - bularning barchasi Zomin. Zominda nimani ko‘rish mumkin? Katta hududda joylashgan Zomin davlat tog‘ archa qo‘riqxonasi va uning tarkibiga kiradigan Baxmal o‘rmon xo‘jaligi, Zomin o‘rmon xo‘jaligi, umumiy maydoni 26840 ga. teng bo‘lgan Zomin milliy tabiiy bog‘i; Kristall ko‘llar Nurota tizmalari o‘zining janubiy, qisman g‘arbiy va vohasining bir qismini o‘rab, moʻtadil iqlimni taʼminlaydi, shuningdek, mintaqaning shimolidagi Aydar-Arnasay ko‘llar tizimiga relyef va tabiiy go‘zallikning o‘ziga xosligini beradi; Milliy sihatgoh - Zomin sanatoriysi Zomin milliy bog‘ida dengiz sathidan 2 ming metr balandlikda “Zomin” sihatgohi joylashgan. Eng toza havo, tog‘li landshaftlar, ignabargli o‘simliklar - bularning barchasi kattalar va bolalarga tibbiy muolajalar o‘tqazish uchun eng yaxshi sharoit hisoblanadi. Qadimiy ziyoratgohlar va Parpi Oyim majmuasi.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/zomin/",
+      "coordinate" : {
+        "lon" : 101.94240000000001,
+        "lat" : 2.7258
+      },
+      "image" : "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/zaamin-0-0-0-0-1592480374.jpg",
+      "id" : 5,
+      "price" : 5147500.00,
+      "slogan" : "Rich in tradition"
+    },
+    {
+      "itenary" : "Qarshi",
+      "desc" : "Qadimiy Qarshi shahri 2006 yilda YUNESKO shafeligida 2700 yillik yubileyini nishonladi. Buyuk Aleksandr Makedonskiy bu yerda bo‘lgan. Afsonada aytilishicha, shaharda mashhur jasur va so‘g‘d harbiy qo‘mondoni Spitamen tug‘ilgan. Uning jasoratidan Makedonskiy hayratda qoldi. Shaharda turar-joy binolari va shahar infratuzilmasi bilan birgalikda bir nechta qadimiy ibodat joylarini ko‘rishingiz mumkin. Abu Ubayd ibn Jarrohning yodgorlik majmuasi;Qarshi ko‘prigi; Odina madrasasi va masjidi; Ko‘k-Gumbaz masjidi; Kulichboy madrasasi; Xuja Abdulaziz madrasasi; Sardoba; Qarshi hammomlari",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/qarshi/",
+      "coordinate" : {
+        "lon" : 103.1324,
+        "lat" : 5.3117000000000001
+      },
+      "image" : "http://static.xabar.uz/crop/1/0/736_736_95_106138485.jpg",
+      "id" : 6,
+      "price" : 8147500.00,
+      "slogan" : "The ocean of turtles"
+    },
+    {
+      "itenary" : "Navoiy",
+      "desc" : "Navoiy respublikaning eng yirik maʼmuriy markazi va eng yosh shahri hisoblanadi. Shaharda quyidagilarni ko‘rishingiz mumkin: Xalqlar do‘stligi xiyoboni; Alisher Navoiy nomidagi istirohat bog‘i; Sergiy Radonejskiyning  ibodatxonasi; Hazrat Alisher Navoiy masjidi.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/navoiy/",
+      "coordinate" : {
+        "lon" : 100.3685,
+        "lat" : 6.1184000000000003
+      },
+      "image" : "http://cdn.beta.qalampir.uz/uploads/J3/m_EM1lDE7nTM59uezvycGGjJSapCHTCQ.jpg",
+      
+      "id" : 7,
+      "price" : 8147500.00,
+      "slogan" : "Full of paddy fields"
+    },
+    {
+      "itenary" : "Andijon",
+      "desc" : "Andijon shahri - o‘zbek sheʼriyatining taniqli vakili, Mug‘allar sulolasining asoschisi, sarkarda va hukmdor Boburning vatani. Bir vaqtlar Buyuk Ipak yo‘li bo‘ylab joylashgan, arxeologik yodgorliklar va tarixiy obidalarga boy bo‘lgan shaharni , tashrif buyurishga tavsiya etamiz: Bobur bog‘i; Jomiy meʼmoriy majmuasi; Qutayba ibn Muslim maqbarasi; Bibi Seshanba (muqaddas joy).",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/i/andijon/",
+      "coordinate" : {
+        "lon" : 102.2381,
+        "lat" : 6.1254
+      },
+      "image" : "http://storage.kun.uz/source/old/Marufniki/ana26.jpg",
+      "id" : 8,
+      "price" : 6147500.00,
+      "slogan" : "Famous in sweet foods"
+    },
+    {
+      "itenary" : "Xazrati Dovud g‘origa 1303 zina",
+      "desc" : "Samarqanddan 40 kilometr uzoqlikda Oqsoy qishlog‘ida Hazrati Dovud g‘ori yoki Muqaddas Dovudning ajoyib arxeologik yodgorligi, muqaddas qadamjo va tabiatning mo‘jizasi joylashgan. Ma’lumki, Hazrati Dovud bir vaqtning o‘zida uchta dinda hurmatga sazovor shahs hisoblanadi. Musulmonlar uni Hazrat Dovud, pravoslavlar va yahudiylar David deb atashadi. Uning bashorat va shifo qobiliyati bo‘lganligi sabab, uning hayot hikoyasi sir va afsonalar bilan qoplangan. Hazrati Dovud 33 yoshida Isroil va Yahudiya Birlashgan Qirolligining hukmdori bo‘lib, qirq yil davomida hukmronlik qilgan.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/o/xazrati-dovud-goriga-zina/",
+      "coordinate" : {
+        "lon" : 110.3592,
+        "lat" : 1.5532999999999999
+      },
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/a/ab/King_Davids_Cave_%283914497189%29.jpg",
+      "id" : 9,
+      "price" : 7147500.00,
+      "slogan" : "tourist"
+    },
+    {
+      "itenary" : "Toshkent botanika bog'i",
+      "desc" : "Akademik F.N. Rusanov nomidagi Toshkent botanika bog‘i MDH hududidagi eng katta va eng qadimiy tabiiy bog‘lardan biridir. Hozirgi kunda botanika bog‘i O‘zbekiston Respublikasi Fanlar akademiyasi O‘simlik va hayvonot dunyosi genofondi instituti (avvalgi O‘zbekiston Respublikasi  Fanlar akademiyasining botanika instituti)ga tegishli.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/o/toshkent-botanika-bogi/",
+      "coordinate" : {
+        "lon" : 103.32559999999999,
+        "lat" : 3.8126000000000002
+      },
+      "image" : "https://meros.uz/upload/2017/02/d6b4c565f5b4bdf8ee1de39a1f5f7c8e-large.jpg",
+      "id" : 10,
+      "price" : 1147500.00,
+      "slogan" : "tourist"
+    },
+    {
+      "itenary" : "Marg'ilon hunarmandchilik markazi",
+      "desc" : "Marg'ilon hunarmandchilik markazi 1126Har qanday o'zbekistonlikdan sof ipak mahsulotni qaerdan sotib olish mumkinligini so'rang. Sizga, albatta, Marg'ilonga borishingizni maslahat berishadi. Uzoq vaqt davomida ushbu viloyat ipak ishlab chiqarish bo'yicha eng yirik markaz sifatida mashhur bo'lib kelgan. Shaharda eng qadimgi Yodgorlik ipak to'quv fabrikasi ishlaydi. ",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/o/marg'ilon-hunarmandchilik-markazi/",
+      "coordinate" : {
+        "lon" : 100.20480000000001,
+        "lat" : 6.4448999999999996
+      },
+      "image" : "https://static.sof.uz/crop/6/3/1200__90_634214118.jpg",
+      "id" : 11,
+      "price" : 6147500.00,
+      "slogan" : "tourist"
+    },
+    {
+      "itenary" : "Xo‘ja Nasriddin Afandi haykali",
+      "desc" : "Buxoroning tarixiy markazida, mashhur Labi-Hovuz maydonida noyob yodgorlik bor. U qadimgi meʼmorchilikning betakror durdonalari orasida yorug‘lik uchquniga o‘xshaydi. Bu afsonaviy qahramon Xo‘ja Nasriddin Afandi haykalidir. Aqlli, sho‘x va hazilkash, hiyla-nayranglarni ayyorona ishlatib, insoniyatning yomon illatlariga qarshi kurashgan bu sharqona qahramon to‘g‘risida ko‘pchilik afsonalarda, latifa va masallarda o‘qigan bo‘lishi mumkin.Xalq donishmandi, hazil-mutoyibaga usta, so‘zga boy, iboralarni mohirona qo‘llaydigan notiq – Xo‘ja Nasriddinni shunday tasvirlashimiz mumkin. O‘zining hazillarida u ochko‘z hukmdorlar, boylar va qozilarning illatlari ustidan kulgan, ikkiyuzlamachilik va qo‘rqoqlik, poraxo‘rlik va sudxo‘rlik qiluvchilar ustidan mazax qilgan. Insoniyatning yomonliklari ustidan kulib hattoki eng qiyin vaziyatlardan ham chiqib ketishda u o‘ziga xos, soddaligi va quvnoqligi sabab xalqqa yaqin bo‘lishga harakat qilgan.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/o/xoja-nasriddin-afandi-haykali/",
+      "coordinate" : {
+        "lon" : 101.09010000000001,
+        "lat" : 4.5921000000000003
+      },
+      "image" : "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/xodja-0-0-0-0-1587121312.jpg",
+      "id" : 12,
+      "price" : 1147500.00,
+      "slogan" : "tourist"
+    },
+    {
+      "itenary" : "Sitorai Mohi Xosa-so‘ngi Buxoro amirining shahar tashqarisidagi qarorgohi",
+      "desc" : "Buxoroning to‘rt kilometr shimolida ajoyib betakror saroy joylashgan. Bir qarashda siz sharq amiri yoki g‘arb shahzodaning qarorgohiligini payqamaysiz. Nega desangiz, bu qarorgohda o‘z vaqtida mang‘itlar sulolasidan bo‘lgan Buxoro amiri– Amir Said Olimxon (1911-1920) bu saroyda yashaganligi sababablidir. Afsuski, amirning taqdiri Rossiya qo‘shinlarining Buxoroga bostirib kelishi bilan o‘zgardi. Amir o‘zining hashamatli saroyini tashlab Afg‘oniston Qirolligiga qochib ketishga majbur bo‘ldi. Xuddi shu joyda, ko‘z nuridan ajralgan Amir vafot etdi. O‘z davrida Amir hamma narsaga: sirli ravishda g‘oyib bo‘lgan oltinlar, shohona hayot, ko‘plab mukofotlar, rafiqalar va o‘nlab joriyalar va, albatta, ajoyib qarorgohlarga ega edi.",
+      "moreWithWeb" : "https://uzbekistan.travel/uz/o/sitorai-mohi-xosa-songi-buxoro-amirining-shahar-tashqarisidagi-qarorgohi/",
+      "coordinate" : {
+        "lon" : 101.5183,
+        "lat" : 3.0737999999999999
+      },
+      "image" : "https://uzbekistan.travel/storage/app/uploads/public/5ea/bc4/a9e/thumb_737_600_480_0_0_auto.jpg",
+      "id" : 13,
+      "price" : 1137500.00,
+      "slogan" : "tourist"
+    } ]
+

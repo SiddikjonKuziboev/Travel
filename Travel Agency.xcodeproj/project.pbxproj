@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D3ED52F593C010D80E4960 /* Pods_Travel_Agency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */; };
+		33A72C3D33AA93098DD6568A /* Pods_Travel_Agency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000ABA3FF99DAA9C13832281 /* Pods_Travel_Agency.framework */; };
 		4D0F3E5F28111306005C62D2 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E5E28111306005C62D2 /* Ext+String.swift */; };
 		4D0F3E6128111711005C62D2 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6028111711005C62D2 /* Cache.swift */; };
 		4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6228111752005C62D2 /* RegisterVC.swift */; };
@@ -17,6 +17,22 @@
 		4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6928112162005C62D2 /* HotelsVC.xib */; };
 		4D0F3E6E28112321005C62D2 /* RentCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6C28112321005C62D2 /* RentCarVC.swift */; };
 		4D0F3E6F28112321005C62D2 /* RentCarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F3E6D28112321005C62D2 /* RentCarVC.xib */; };
+		4D7D407C28192BDC00F1367E /* MyRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D407B28192BDC00F1367E /* MyRealmData.swift */; };
+		4D7D407E2819385700F1367E /* Ext+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D407D2819385700F1367E /* Ext+UIImageView.swift */; };
+		4D9046202827C89000D99271 /* OrdersDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90461F2827C89000D99271 /* OrdersDM.swift */; };
+		4D93AA362819133100004FE9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA322819133100004FE9 /* Loader.swift */; };
+		4D93AA372819133100004FE9 /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA332819133100004FE9 /* Rechability.swift */; };
+		4D93AA382819133100004FE9 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA342819133100004FE9 /* Net.swift */; };
+		4D93AA3A2819135600004FE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA392819135600004FE9 /* API.swift */; };
+		4D93AA3C2819272C00004FE9 /* LocationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA3B2819272C00004FE9 /* LocationDM.swift */; };
+		4D93AA402819280600004FE9 /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D93AA3F2819280600004FE9 /* Locations.json */; };
+		4D992AD0281A5E8600106481 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992ACE281A5E8600106481 /* WebViewVC.swift */; };
+		4D992AD4281A7C1800106481 /* PlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992AD2281A7C1800106481 /* PlaceDetailVC.swift */; };
+		4D992AD5281A7C1800106481 /* PlaceDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D992AD3281A7C1800106481 /* PlaceDetailVC.xib */; };
+		4D992AE1281BBA9700106481 /* FavoritesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992ADF281BBA9700106481 /* FavoritesTVC.swift */; };
+		4D992AE2281BBA9700106481 /* FavoritesTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D992AE0281BBA9700106481 /* FavoritesTVC.xib */; };
+		4D992AEB281BC6DD00106481 /* MyFavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992AE9281BC6DD00106481 /* MyFavoriteVC.swift */; };
+		4D992AEC281BC6DD00106481 /* MyFavoriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D992AEA281BC6DD00106481 /* MyFavoriteVC.xib */; };
 		4D9EC42D28152239006D06FB /* UserDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC42C28152239006D06FB /* UserDM.swift */; };
 		4D9EC42F281522F0006D06FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC42E281522F0006D06FB /* Constants.swift */; };
 		4D9EC431281525CE006D06FB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EC430281525CE006D06FB /* Alert.swift */; };
@@ -39,13 +55,13 @@
 		4DA48785280FD16000401107 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48783280FD16000401107 /* MainVC.xib */; };
 		4DA4878B280FD27900401107 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48789280FD27900401107 /* LoginVC.swift */; };
 		4DA4878C280FD27900401107 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4878A280FD27900401107 /* LoginVC.xib */; };
+		4DE82568281CAE1400B42757 /* MyFirestoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE82567281CAE1400B42757 /* MyFirestoreData.swift */; };
 		4DEA44F82817BFBE00093536 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */; };
-		4DEA44FB2817C1C500093536 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEA44FA2817C1C500093536 /* FirebaseAnalytics */; };
-		4DEA44FD2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_Agency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000ABA3FF99DAA9C13832281 /* Pods_Travel_Agency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_Agency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4D495F1FC776433C8DFDD3 /* Pods-Travel Agency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.debug.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.debug.xcconfig"; sourceTree = "<group>"; };
 		4D0F3E5E28111306005C62D2 /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		4D0F3E6028111711005C62D2 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		4D0F3E6228111752005C62D2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
@@ -55,6 +71,22 @@
 		4D0F3E6928112162005C62D2 /* HotelsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelsVC.xib; sourceTree = "<group>"; };
 		4D0F3E6C28112321005C62D2 /* RentCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCarVC.swift; sourceTree = "<group>"; };
 		4D0F3E6D28112321005C62D2 /* RentCarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RentCarVC.xib; sourceTree = "<group>"; };
+		4D7D407B28192BDC00F1367E /* MyRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRealmData.swift; sourceTree = "<group>"; };
+		4D7D407D2819385700F1367E /* Ext+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImageView.swift"; sourceTree = "<group>"; };
+		4D90461F2827C89000D99271 /* OrdersDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersDM.swift; sourceTree = "<group>"; };
+		4D93AA322819133100004FE9 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		4D93AA332819133100004FE9 /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		4D93AA342819133100004FE9 /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		4D93AA392819135600004FE9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4D93AA3B2819272C00004FE9 /* LocationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDM.swift; sourceTree = "<group>"; };
+		4D93AA3F2819280600004FE9 /* Locations.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = Locations.json; sourceTree = "<group>"; };
+		4D992ACE281A5E8600106481 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		4D992AD2281A7C1800106481 /* PlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailVC.swift; sourceTree = "<group>"; };
+		4D992AD3281A7C1800106481 /* PlaceDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceDetailVC.xib; sourceTree = "<group>"; };
+		4D992ADF281BBA9700106481 /* FavoritesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTVC.swift; sourceTree = "<group>"; };
+		4D992AE0281BBA9700106481 /* FavoritesTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTVC.xib; sourceTree = "<group>"; };
+		4D992AE9281BC6DD00106481 /* MyFavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteVC.swift; sourceTree = "<group>"; };
+		4D992AEA281BC6DD00106481 /* MyFavoriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFavoriteVC.xib; sourceTree = "<group>"; };
 		4D9EC42C28152239006D06FB /* UserDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDM.swift; sourceTree = "<group>"; };
 		4D9EC42E281522F0006D06FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D9EC430281525CE006D06FB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -80,9 +112,9 @@
 		4DA48789280FD27900401107 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4DA4878A280FD27900401107 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		4DA4878D280FF73500401107 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4DE82567281CAE1400B42757 /* MyFirestoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirestoreData.swift; sourceTree = "<group>"; };
 		4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.debug.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.debug.xcconfig"; sourceTree = "<group>"; };
-		C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.release.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.release.xcconfig"; sourceTree = "<group>"; };
+		9A2AD73BB82F95916144D57F /* Pods-Travel Agency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.release.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEA44FB2817C1C500093536 /* FirebaseAnalytics in Frameworks */,
-				4DEA44FD2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				10D3ED52F593C010D80E4960 /* Pods_Travel_Agency.framework in Frameworks */,
+				33A72C3D33AA93098DD6568A /* Pods_Travel_Agency.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +132,7 @@
 		4D0F3E5D281112DB005C62D2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				4D93AA302819131800004FE9 /* Net */,
 				4D9EC430281525CE006D06FB /* Alert.swift */,
 				4D0F3E6028111711005C62D2 /* Cache.swift */,
 				4D9EC42E281522F0006D06FB /* Constants.swift */,
@@ -121,6 +152,29 @@
 			path = MainVC;
 			sourceTree = "<group>";
 		};
+		4D93AA302819131800004FE9 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				4D93AA322819133100004FE9 /* Loader.swift */,
+				4D93AA342819133100004FE9 /* Net.swift */,
+				4D93AA332819133100004FE9 /* Rechability.swift */,
+				4D93AA392819135600004FE9 /* API.swift */,
+				4D7D407B28192BDC00F1367E /* MyRealmData.swift */,
+				4DE82567281CAE1400B42757 /* MyFirestoreData.swift */,
+				4D93AA3F2819280600004FE9 /* Locations.json */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		4D992ADE281BBA7700106481 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D992ADF281BBA9700106481 /* FavoritesTVC.swift */,
+				4D992AE0281BBA9700106481 /* FavoritesTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4D9EC43428155027006D06FB /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +188,9 @@
 			children = (
 				4DA48782280FD16000401107 /* MainVC.swift */,
 				4DA48783280FD16000401107 /* MainVC.xib */,
+				4D992AD2281A7C1800106481 /* PlaceDetailVC.swift */,
+				4D992AD3281A7C1800106481 /* PlaceDetailVC.xib */,
+				4D992ACE281A5E8600106481 /* WebViewVC.swift */,
 				4D9EC44C28166714006D06FB /* CVC */,
 			);
 			path = MainVC;
@@ -164,6 +221,9 @@
 				4D9EC43628155129006D06FB /* ProfileVC.xib */,
 				4D9EC44428155575006D06FB /* CustomSectionHeader.swift */,
 				4D9EC44328155575006D06FB /* CustomSectionHeader.xib */,
+				4D992AE9281BC6DD00106481 /* MyFavoriteVC.swift */,
+				4D992AEA281BC6DD00106481 /* MyFavoriteVC.xib */,
+				4D992ADE281BBA7700106481 /* TVC */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -174,6 +234,7 @@
 				4D0F3E5E28111306005C62D2 /* Ext+String.swift */,
 				4D9EC4552816684E006D06FB /* Ext+Cell.swift */,
 				4D9EC44A28165877006D06FB /* Ext+UNC.swift */,
+				4D7D407D2819385700F1367E /* Ext+UIImageView.swift */,
 				4D9EC43228152907006D06FB /* Ext+UIWindow.swift */,
 				4D9EC44728165828006D06FB /* Ext+UIVC.swift */,
 			);
@@ -197,7 +258,7 @@
 				4DA4876D280FD0F500401107 /* Travel Agency */,
 				4DA4876C280FD0F500401107 /* Products */,
 				CE30BA6DC410459BBF61A4DB /* Pods */,
-				F7A9CD99ACB95FA56BD44AAC /* Frameworks */,
+				B0AC62567A5A23743AE5C50A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,6 +289,8 @@
 			isa = PBXGroup;
 			children = (
 				4D9EC42C28152239006D06FB /* UserDM.swift */,
+				4D90461F2827C89000D99271 /* OrdersDM.swift */,
+				4D93AA3B2819272C00004FE9 /* LocationDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,21 +316,21 @@
 			path = LoginPages;
 			sourceTree = "<group>";
 		};
+		B0AC62567A5A23743AE5C50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000ABA3FF99DAA9C13832281 /* Pods_Travel_Agency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE30BA6DC410459BBF61A4DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */,
-				C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */,
+				3E4D495F1FC776433C8DFDD3 /* Pods-Travel Agency.debug.xcconfig */,
+				9A2AD73BB82F95916144D57F /* Pods-Travel Agency.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F7A9CD99ACB95FA56BD44AAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1047D8F12E51349C3428DE9A /* Pods_Travel_Agency.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,22 +340,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA4877F280FD0F900401107 /* Build configuration list for PBXNativeTarget "Travel Agency" */;
 			buildPhases = (
-				CA8FB0DB1880D185AF80C4C3 /* [CP] Check Pods Manifest.lock */,
+				1E7851D5390B9173EE91B6ED /* [CP] Check Pods Manifest.lock */,
 				4DA48767280FD0F500401107 /* Sources */,
 				4DA48768280FD0F500401107 /* Frameworks */,
 				4DA48769280FD0F500401107 /* Resources */,
-				A4368947F64C2017325E439D /* [CP] Embed Pods Frameworks */,
-				4DEA44FE2817C32500093536 /* ShellScript */,
+				A186B2B8BAA8745F49DDD567 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Travel Agency";
-			packageProductDependencies = (
-				4DEA44FA2817C1C500093536 /* FirebaseAnalytics */,
-				4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */,
-			);
 			productName = "Travel Agency";
 			productReference = 4DA4876B280FD0F500401107 /* Travel Agency.app */;
 			productType = "com.apple.product-type.application";
@@ -322,9 +380,6 @@
 				ru,
 			);
 			mainGroup = 4DA48762280FD0F500401107;
-			packageReferences = (
-				4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 4DA4876C280FD0F500401107 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,7 +394,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D992AEC281BC6DD00106481 /* MyFavoriteVC.xib in Resources */,
 				4D9EC43828155129006D06FB /* ProfileVC.xib in Resources */,
+				4D992AD5281A7C1800106481 /* PlaceDetailVC.xib in Resources */,
 				4DA48785280FD16000401107 /* MainVC.xib in Resources */,
 				4D9EC4542816674E006D06FB /* AnimateCVC.xib in Resources */,
 				4D9EC44528155575006D06FB /* CustomSectionHeader.xib in Resources */,
@@ -350,6 +407,8 @@
 				4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */,
 				4DA48778280FD0F900401107 /* Assets.xcassets in Resources */,
 				4D9EC45028166735006D06FB /* TopCVC.xib in Resources */,
+				4D93AA402819280600004FE9 /* Locations.json in Resources */,
+				4D992AE2281BBA9700106481 /* FavoritesTVC.xib in Resources */,
 				4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,43 +416,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DEA44FE2817C32500093536 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
-		};
-		A4368947F64C2017325E439D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA8FB0DB1880D185AF80C4C3 /* [CP] Check Pods Manifest.lock */ = {
+		1E7851D5390B9173EE91B6ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,6 +438,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A186B2B8BAA8745F49DDD567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel Agency/Pods-Travel Agency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -425,22 +465,35 @@
 				4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */,
 				4D9EC42F281522F0006D06FB /* Constants.swift in Sources */,
 				4D9EC43728155129006D06FB /* ProfileVC.swift in Sources */,
+				4DE82568281CAE1400B42757 /* MyFirestoreData.swift in Sources */,
+				4D7D407C28192BDC00F1367E /* MyRealmData.swift in Sources */,
 				4D9EC42D28152239006D06FB /* UserDM.swift in Sources */,
 				4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */,
 				4D9EC44B28165877006D06FB /* Ext+UNC.swift in Sources */,
 				4D0F3E6128111711005C62D2 /* Cache.swift in Sources */,
+				4D992AD4281A7C1800106481 /* PlaceDetailVC.swift in Sources */,
+				4D93AA362819133100004FE9 /* Loader.swift in Sources */,
 				4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */,
 				4D9EC44F28166735006D06FB /* TopCVC.swift in Sources */,
 				4DA48784280FD16000401107 /* MainVC.swift in Sources */,
 				4D9EC4532816674E006D06FB /* AnimateCVC.swift in Sources */,
+				4D93AA372819133100004FE9 /* Rechability.swift in Sources */,
 				4D9EC431281525CE006D06FB /* Alert.swift in Sources */,
 				4D0F3E6E28112321005C62D2 /* RentCarVC.swift in Sources */,
+				4D992AEB281BC6DD00106481 /* MyFavoriteVC.swift in Sources */,
 				4D9EC4562816684E006D06FB /* Ext+Cell.swift in Sources */,
 				4D0F3E6428111752005C62D2 /* RegisterVC.swift in Sources */,
 				4D0F3E67281119FC005C62D2 /* TabBarController.swift in Sources */,
+				4D9046202827C89000D99271 /* OrdersDM.swift in Sources */,
+				4D93AA3C2819272C00004FE9 /* LocationDM.swift in Sources */,
+				4D992AE1281BBA9700106481 /* FavoritesTVC.swift in Sources */,
+				4D93AA382819133100004FE9 /* Net.swift in Sources */,
 				4D9EC44828165828006D06FB /* Ext+UIVC.swift in Sources */,
 				4D9EC44628155575006D06FB /* CustomSectionHeader.swift in Sources */,
 				4DA4878B280FD27900401107 /* LoginVC.swift in Sources */,
+				4D992AD0281A5E8600106481 /* WebViewVC.swift in Sources */,
+				4D7D407E2819385700F1367E /* Ext+UIImageView.swift in Sources */,
+				4D93AA3A2819135600004FE9 /* API.swift in Sources */,
 				4D0F3E5F28111306005C62D2 /* Ext+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +547,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -578,7 +631,7 @@
 		};
 		4DA48780280FD0F900401107 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7105284492D95D9215788308 /* Pods-Travel Agency.debug.xcconfig */;
+			baseConfigurationReference = 3E4D495F1FC776433C8DFDD3 /* Pods-Travel Agency.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -608,7 +661,7 @@
 		};
 		4DA48781280FD0F900401107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1646AC0DEEB92BCFC3559BA /* Pods-Travel Agency.release.xcconfig */;
+			baseConfigurationReference = 9A2AD73BB82F95916144D57F /* Pods-Travel Agency.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -658,30 +711,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4DEA44FA2817C1C500093536 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		4DEA44FC2817C1C500093536 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4DEA44F92817C1C500093536 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DA48763280FD0F500401107 /* Project object */;
 }

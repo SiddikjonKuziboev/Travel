@@ -16,18 +16,21 @@ class ProfileVC: UIViewController {
             tableView.delegate = self
             tableView.dataSource = self
             tableView.sectionHeaderHeight = UITableView.automaticDimension
+            tableView.separatorStyle = .none
         }
     }
     
     var tableData: [String] = [
         "My orders",
+        "My favorites",
         "Log out"
+        
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        
+        
     }
 
 
@@ -58,6 +61,7 @@ extension ProfileVC : UITableViewDataSource {
                     header.phoneNumberLbl.text?.formatPhoneNumber(with: "+XXX XX XXX XX XX", phone: data.phoneNumber)
                  }
                 
+                
                 return header
             }
         }
@@ -76,6 +80,10 @@ extension ProfileVC: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             print("o")
+        case 1:
+            let vc = MyFavoriteVC(nibName: "MyFavoriteVC", bundle: nil)
+            navigationController?.pushViewController(vc, animated: true)
+            
         default :
             logOutAlert()
             
