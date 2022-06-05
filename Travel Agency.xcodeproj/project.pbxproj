@@ -20,6 +20,10 @@
 		4D7D407C28192BDC00F1367E /* MyRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D407B28192BDC00F1367E /* MyRealmData.swift */; };
 		4D7D407E2819385700F1367E /* Ext+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D407D2819385700F1367E /* Ext+UIImageView.swift */; };
 		4D9046202827C89000D99271 /* OrdersDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90461F2827C89000D99271 /* OrdersDM.swift */; };
+		4D9046232828229000D99271 /* AppInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9046212828229000D99271 /* AppInfoVC.swift */; };
+		4D9046242828229000D99271 /* AppInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9046222828229000D99271 /* AppInfoVC.xib */; };
+		4D904626282834E600D99271 /* Cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D904625282834E600D99271 /* Cars.json */; };
+		4D90462828283DC400D99271 /* CarDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90462728283DC400D99271 /* CarDM.swift */; };
 		4D93AA362819133100004FE9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA322819133100004FE9 /* Loader.swift */; };
 		4D93AA372819133100004FE9 /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA332819133100004FE9 /* Rechability.swift */; };
 		4D93AA382819133100004FE9 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA342819133100004FE9 /* Net.swift */; };
@@ -74,6 +78,10 @@
 		4D7D407B28192BDC00F1367E /* MyRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRealmData.swift; sourceTree = "<group>"; };
 		4D7D407D2819385700F1367E /* Ext+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImageView.swift"; sourceTree = "<group>"; };
 		4D90461F2827C89000D99271 /* OrdersDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersDM.swift; sourceTree = "<group>"; };
+		4D9046212828229000D99271 /* AppInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVC.swift; sourceTree = "<group>"; };
+		4D9046222828229000D99271 /* AppInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppInfoVC.xib; sourceTree = "<group>"; };
+		4D904625282834E600D99271 /* Cars.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = Cars.json; sourceTree = "<group>"; };
+		4D90462728283DC400D99271 /* CarDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDM.swift; sourceTree = "<group>"; };
 		4D93AA322819133100004FE9 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		4D93AA332819133100004FE9 /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
 		4D93AA342819133100004FE9 /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
@@ -144,7 +152,7 @@
 		4D0F3E7028112404005C62D2 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
-				4D9EC439281553B0006D06FB /* MainVC */,
+				4D9EC439281553B0006D06FB /* Home */,
 				4D9EC43A281553B8006D06FB /* Hotel */,
 				4D9EC43B281553BF006D06FB /* RentCar */,
 				4D9EC43C281553C7006D06FB /* Profile */,
@@ -162,6 +170,7 @@
 				4D7D407B28192BDC00F1367E /* MyRealmData.swift */,
 				4DE82567281CAE1400B42757 /* MyFirestoreData.swift */,
 				4D93AA3F2819280600004FE9 /* Locations.json */,
+				4D904625282834E600D99271 /* Cars.json */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -183,7 +192,7 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
-		4D9EC439281553B0006D06FB /* MainVC */ = {
+		4D9EC439281553B0006D06FB /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				4DA48782280FD16000401107 /* MainVC.swift */,
@@ -193,7 +202,7 @@
 				4D992ACE281A5E8600106481 /* WebViewVC.swift */,
 				4D9EC44C28166714006D06FB /* CVC */,
 			);
-			path = MainVC;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		4D9EC43A281553B8006D06FB /* Hotel */ = {
@@ -223,6 +232,8 @@
 				4D9EC44328155575006D06FB /* CustomSectionHeader.xib */,
 				4D992AE9281BC6DD00106481 /* MyFavoriteVC.swift */,
 				4D992AEA281BC6DD00106481 /* MyFavoriteVC.xib */,
+				4D9046212828229000D99271 /* AppInfoVC.swift */,
+				4D9046222828229000D99271 /* AppInfoVC.xib */,
 				4D992ADE281BBA7700106481 /* TVC */,
 			);
 			path = Profile;
@@ -291,6 +302,7 @@
 				4D9EC42C28152239006D06FB /* UserDM.swift */,
 				4D90461F2827C89000D99271 /* OrdersDM.swift */,
 				4D93AA3B2819272C00004FE9 /* LocationDM.swift */,
+				4D90462728283DC400D99271 /* CarDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -409,7 +421,9 @@
 				4D9EC45028166735006D06FB /* TopCVC.xib in Resources */,
 				4D93AA402819280600004FE9 /* Locations.json in Resources */,
 				4D992AE2281BBA9700106481 /* FavoritesTVC.xib in Resources */,
+				4D9046242828229000D99271 /* AppInfoVC.xib in Resources */,
 				4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */,
+				4D904626282834E600D99271 /* Cars.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +483,7 @@
 				4D7D407C28192BDC00F1367E /* MyRealmData.swift in Sources */,
 				4D9EC42D28152239006D06FB /* UserDM.swift in Sources */,
 				4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */,
+				4D90462828283DC400D99271 /* CarDM.swift in Sources */,
 				4D9EC44B28165877006D06FB /* Ext+UNC.swift in Sources */,
 				4D0F3E6128111711005C62D2 /* Cache.swift in Sources */,
 				4D992AD4281A7C1800106481 /* PlaceDetailVC.swift in Sources */,
@@ -476,6 +491,7 @@
 				4D9EC43328152907006D06FB /* Ext+UIWindow.swift in Sources */,
 				4D9EC44F28166735006D06FB /* TopCVC.swift in Sources */,
 				4DA48784280FD16000401107 /* MainVC.swift in Sources */,
+				4D9046232828229000D99271 /* AppInfoVC.swift in Sources */,
 				4D9EC4532816674E006D06FB /* AnimateCVC.swift in Sources */,
 				4D93AA372819133100004FE9 /* Rechability.swift in Sources */,
 				4D9EC431281525CE006D06FB /* Alert.swift in Sources */,

@@ -29,6 +29,7 @@ class MainVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         getData()
+        print(CarDM.getCars()[0].name, "carssss")
     }
     
     override func didReceiveMemoryWarning() {

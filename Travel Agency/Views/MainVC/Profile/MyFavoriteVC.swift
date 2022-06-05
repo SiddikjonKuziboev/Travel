@@ -12,10 +12,11 @@ class MyFavoriteVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     var myFavorites: [LocationDM] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+            title = "My favorites"
         collectionView.register(UINib(nibName: AnimateCVC.identifier, bundle: nil), forCellWithReuseIdentifier: AnimateCVC.identifier)
         collectionView.decelerationRate = UIScrollView.DecelerationRate.fast
         collectionView.contentInset = UIEdgeInsets.init(top: 0, left: 30, bottom: 0, right: 30)

@@ -60,9 +60,7 @@ class PlaceDetailVC: UIViewController {
         let days = Int(peopleCountTF.text!) ?? 1
         let peopleCount = Int(peopleCountTF.text!) ?? 1
         
-        
-        MyFirestoreData.shared.getMyOrderId {[self] id in
-            Alert.showAlert(state: .warning, message: "SuccessFully")
+
             MyFirestoreData.shared.setOrderToFirestore(
                 data:
                     OrdersDM(
@@ -73,10 +71,7 @@ class PlaceDetailVC: UIViewController {
                         place:  placeData?.itenary ?? "",
                         price: (placeData?.price ?? 0.0)  * Double(peopleCount))
             )
-        }
-        
-       
-       
+
     }
     
     @IBAction func viewAllBtnPressed(_ sender: Any) {

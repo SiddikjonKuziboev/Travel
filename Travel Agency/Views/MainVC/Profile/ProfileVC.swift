@@ -16,25 +16,23 @@ class ProfileVC: UIViewController {
             tableView.delegate = self
             tableView.dataSource = self
             tableView.sectionHeaderHeight = UITableView.automaticDimension
-            tableView.separatorStyle = .none
+//            tableView.separatorStyle = .none
         }
     }
     
     var tableData: [String] = [
         "My orders",
         "My favorites",
+        "App Info",
         "Log out"
         
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+            
     }
 
-
-    
 }
 
 extension ProfileVC : UITableViewDataSource {
@@ -71,9 +69,14 @@ extension ProfileVC : UITableViewDataSource {
     
     
     
+    
 }
 
 extension ProfileVC: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
+    }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
@@ -83,7 +86,9 @@ extension ProfileVC: UITableViewDelegate {
         case 1:
             let vc = MyFavoriteVC(nibName: "MyFavoriteVC", bundle: nil)
             navigationController?.pushViewController(vc, animated: true)
-            
+        case 2:
+            let vc = AppInfoVC(nibName: "AppInfoVC", bundle: nil)
+            navigationController?.pushViewController(vc, animated: true)
         default :
             logOutAlert()
             
@@ -100,4 +105,6 @@ extension ProfileVC: UITableViewDelegate {
         
         showSystemAlert(title: "Exit App", message: "", alertType: .alert, actionTitles: ["Yes","Cancel"], style: [.destructive, .cancel], actions: [logOut, nil])
     }
+    
+    
 }

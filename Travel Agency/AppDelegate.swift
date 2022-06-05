@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         FirebaseApp.configure()
+        
+        if #available(iOS 13.0, *) {
+            window?.overrideUserInterfaceStyle = .light
+        }
     
         if let userDefData = Cache.getUserData(), userDefData.password != ""  {
             self.window?.rootViewController = TabBarController()
