@@ -63,9 +63,15 @@ class RegisterVC: UIViewController {
                             "password" : passwordTF.text!
                         ]
                         
-                        db.collection("users").document(phoneNumber.replacingOccurrences(of: " ", with: "")) .setData(data)
-                        Cache.saveUserData(data: userData)
-                        UIWindow.goToMainTabbar()
+                        db.collection("users").document(phoneNumber.replacingOccurrences(of: " ", with: "")) .setData(data){ error in
+                            if let error = error {
+                                print("Error \(error)")
+                            }else {
+                                Cache.saveUserData(data: userData)
+                                UIWindow.goToMainTabbar()
+                            }
+                        }
+                       
                     }
                 }
             }

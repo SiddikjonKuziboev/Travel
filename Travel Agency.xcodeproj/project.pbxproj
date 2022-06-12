@@ -30,6 +30,10 @@
 		4D93AA3A2819135600004FE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA392819135600004FE9 /* API.swift */; };
 		4D93AA3C2819272C00004FE9 /* LocationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93AA3B2819272C00004FE9 /* LocationDM.swift */; };
 		4D93AA402819280600004FE9 /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D93AA3F2819280600004FE9 /* Locations.json */; };
+		4D96BB5C284CCC5F00C1D265 /* CarDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96BB5A284CCC5F00C1D265 /* CarDetailsVC.swift */; };
+		4D96BB5D284CCC5F00C1D265 /* CarDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D96BB5B284CCC5F00C1D265 /* CarDetailsVC.xib */; };
+		4D96BB60284CD1B200C1D265 /* ConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96BB5E284CD1B200C1D265 /* ConditionVC.swift */; };
+		4D96BB61284CD1B200C1D265 /* ConditionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D96BB5F284CD1B200C1D265 /* ConditionVC.xib */; };
 		4D992AD0281A5E8600106481 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992ACE281A5E8600106481 /* WebViewVC.swift */; };
 		4D992AD4281A7C1800106481 /* PlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D992AD2281A7C1800106481 /* PlaceDetailVC.swift */; };
 		4D992AD5281A7C1800106481 /* PlaceDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D992AD3281A7C1800106481 /* PlaceDetailVC.xib */; };
@@ -59,8 +63,10 @@
 		4DA48785280FD16000401107 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA48783280FD16000401107 /* MainVC.xib */; };
 		4DA4878B280FD27900401107 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA48789280FD27900401107 /* LoginVC.swift */; };
 		4DA4878C280FD27900401107 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4878A280FD27900401107 /* LoginVC.xib */; };
+		4DB3AF772855A6A400DAC7B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3AF762855A6A300DAC7B7 /* GoogleService-Info.plist */; };
 		4DE82568281CAE1400B42757 /* MyFirestoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE82567281CAE1400B42757 /* MyFirestoreData.swift */; };
-		4DEA44F82817BFBE00093536 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */; };
+		4DEA44E4284C9ED10099D8AE /* RenCarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA44E2284C9ED10099D8AE /* RenCarTVC.swift */; };
+		4DEA44E5284C9ED10099D8AE /* RenCarTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA44E3284C9ED10099D8AE /* RenCarTVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +94,10 @@
 		4D93AA392819135600004FE9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4D93AA3B2819272C00004FE9 /* LocationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDM.swift; sourceTree = "<group>"; };
 		4D93AA3F2819280600004FE9 /* Locations.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = Locations.json; sourceTree = "<group>"; };
+		4D96BB5A284CCC5F00C1D265 /* CarDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsVC.swift; sourceTree = "<group>"; };
+		4D96BB5B284CCC5F00C1D265 /* CarDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarDetailsVC.xib; sourceTree = "<group>"; };
+		4D96BB5E284CD1B200C1D265 /* ConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionVC.swift; sourceTree = "<group>"; };
+		4D96BB5F284CD1B200C1D265 /* ConditionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConditionVC.xib; sourceTree = "<group>"; };
 		4D992ACE281A5E8600106481 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		4D992AD2281A7C1800106481 /* PlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailVC.swift; sourceTree = "<group>"; };
 		4D992AD3281A7C1800106481 /* PlaceDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceDetailVC.xib; sourceTree = "<group>"; };
@@ -120,8 +130,10 @@
 		4DA48789280FD27900401107 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4DA4878A280FD27900401107 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		4DA4878D280FF73500401107 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4DB3AF762855A6A300DAC7B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4DE82567281CAE1400B42757 /* MyFirestoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirestoreData.swift; sourceTree = "<group>"; };
-		4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DEA44E2284C9ED10099D8AE /* RenCarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenCarTVC.swift; sourceTree = "<group>"; };
+		4DEA44E3284C9ED10099D8AE /* RenCarTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RenCarTVC.xib; sourceTree = "<group>"; };
 		9A2AD73BB82F95916144D57F /* Pods-Travel Agency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Agency.release.xcconfig"; path = "Target Support Files/Pods-Travel Agency/Pods-Travel Agency.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +187,15 @@
 			path = Net;
 			sourceTree = "<group>";
 		};
+		4D96BB59284CCC3C00C1D265 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA44E2284C9ED10099D8AE /* RenCarTVC.swift */,
+				4DEA44E3284C9ED10099D8AE /* RenCarTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4D992ADE281BBA7700106481 /* TVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +240,11 @@
 			children = (
 				4D0F3E6C28112321005C62D2 /* RentCarVC.swift */,
 				4D0F3E6D28112321005C62D2 /* RentCarVC.xib */,
+				4D96BB5A284CCC5F00C1D265 /* CarDetailsVC.swift */,
+				4D96BB5B284CCC5F00C1D265 /* CarDetailsVC.xib */,
+				4D96BB5E284CD1B200C1D265 /* ConditionVC.swift */,
+				4D96BB5F284CD1B200C1D265 /* ConditionVC.xib */,
+				4D96BB59284CCC3C00C1D265 /* TVC */,
 			);
 			path = RentCar;
 			sourceTree = "<group>";
@@ -291,7 +317,7 @@
 				4DA48777280FD0F900401107 /* Assets.xcassets */,
 				4DA48779280FD0F900401107 /* LaunchScreen.storyboard */,
 				4DA4877C280FD0F900401107 /* Info.plist */,
-				4DEA44F72817BFBE00093536 /* GoogleService-Info.plist */,
+				4DB3AF762855A6A300DAC7B7 /* GoogleService-Info.plist */,
 			);
 			path = "Travel Agency";
 			sourceTree = "<group>";
@@ -413,13 +439,16 @@
 				4D9EC4542816674E006D06FB /* AnimateCVC.xib in Resources */,
 				4D9EC44528155575006D06FB /* CustomSectionHeader.xib in Resources */,
 				4D0F3E6F28112321005C62D2 /* RentCarVC.xib in Resources */,
-				4DEA44F82817BFBE00093536 /* GoogleService-Info.plist in Resources */,
 				4DA4877B280FD0F900401107 /* LaunchScreen.storyboard in Resources */,
+				4DEA44E5284C9ED10099D8AE /* RenCarTVC.xib in Resources */,
 				4DA4878C280FD27900401107 /* LoginVC.xib in Resources */,
 				4D0F3E6B28112162005C62D2 /* HotelsVC.xib in Resources */,
 				4DA48778280FD0F900401107 /* Assets.xcassets in Resources */,
 				4D9EC45028166735006D06FB /* TopCVC.xib in Resources */,
+				4DB3AF772855A6A400DAC7B7 /* GoogleService-Info.plist in Resources */,
+				4D96BB5D284CCC5F00C1D265 /* CarDetailsVC.xib in Resources */,
 				4D93AA402819280600004FE9 /* Locations.json in Resources */,
+				4D96BB61284CD1B200C1D265 /* ConditionVC.xib in Resources */,
 				4D992AE2281BBA9700106481 /* FavoritesTVC.xib in Resources */,
 				4D9046242828229000D99271 /* AppInfoVC.xib in Resources */,
 				4D0F3E6528111752005C62D2 /* RegisterVC.xib in Resources */,
@@ -478,8 +507,10 @@
 			files = (
 				4DA4876F280FD0F500401107 /* AppDelegate.swift in Sources */,
 				4D9EC42F281522F0006D06FB /* Constants.swift in Sources */,
+				4DEA44E4284C9ED10099D8AE /* RenCarTVC.swift in Sources */,
 				4D9EC43728155129006D06FB /* ProfileVC.swift in Sources */,
 				4DE82568281CAE1400B42757 /* MyFirestoreData.swift in Sources */,
+				4D96BB5C284CCC5F00C1D265 /* CarDetailsVC.swift in Sources */,
 				4D7D407C28192BDC00F1367E /* MyRealmData.swift in Sources */,
 				4D9EC42D28152239006D06FB /* UserDM.swift in Sources */,
 				4D0F3E6A28112162005C62D2 /* HotelsVC.swift in Sources */,
@@ -502,6 +533,7 @@
 				4D0F3E67281119FC005C62D2 /* TabBarController.swift in Sources */,
 				4D9046202827C89000D99271 /* OrdersDM.swift in Sources */,
 				4D93AA3C2819272C00004FE9 /* LocationDM.swift in Sources */,
+				4D96BB60284CD1B200C1D265 /* ConditionVC.swift in Sources */,
 				4D992AE1281BBA9700106481 /* FavoritesTVC.swift in Sources */,
 				4D93AA382819133100004FE9 /* Net.swift in Sources */,
 				4D9EC44828165828006D06FB /* Ext+UIVC.swift in Sources */,
@@ -667,7 +699,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Siddikjon.Travel-Agency";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddikjon.Travel-Agency2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -697,7 +729,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Siddikjon.Travel-Agency";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddikjon.Travel-Agency2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

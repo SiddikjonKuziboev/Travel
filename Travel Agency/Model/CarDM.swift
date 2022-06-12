@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 class CarDM: Codable {
     var  engineSize: Double
     var fuelType: String
@@ -46,21 +47,5 @@ extension CarDM {
         }
         
     }
-    static func getLocations() -> [LocationIteamDM] {
-      guard
-        let url = Bundle.main.url(forResource: "Locations", withExtension: "json"),
-        let data = try? Data(contentsOf: url)
-          
-        else {
-          return []
-      }
-      
-      do {
-        let decoder = JSONDecoder()
-          return try decoder.decode([LocationIteamDM].self, from: data)
-      } catch {
-        return []
-      }
-    }
-    
+ 
 }

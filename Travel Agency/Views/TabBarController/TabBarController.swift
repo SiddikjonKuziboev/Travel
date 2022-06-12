@@ -38,6 +38,7 @@ class TabBarController: UITabBarController {
         //Home
         let rentCar = UINavigationController(rootViewController: RentCarVC(nibName: "RentCarVC", bundle: nil))
         rentCar.backBtn(nav: rentCar)
+        rentCar.hideBar()
         rentCar.tabBarItem.image = UIImage(systemName: "car.2")
         
         //Profile
