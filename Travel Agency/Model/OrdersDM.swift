@@ -14,4 +14,5 @@ struct OrdersDM {
     var people: Int
     var place: String
     var price: Double
+    var date: String
 }

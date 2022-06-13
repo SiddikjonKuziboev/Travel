@@ -43,11 +43,16 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M5h-OT-J6Y">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M5h-OT-J6Y">
                                             <rect key="frame" x="0.0" y="50.5" width="382" height="180"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="180" id="XAB-Xz-1YR"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="12"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50O-Gl-n8t">
                                             <rect key="frame" x="0.0" y="260.5" width="382" height="333"/>
@@ -226,6 +231,11 @@
                                                 <constraint firstItem="bp9-iG-t3a" firstAttribute="leading" secondItem="50O-Gl-n8t" secondAttribute="leading" constant="16" id="WvY-il-hZj"/>
                                                 <constraint firstAttribute="trailing" secondItem="bp9-iG-t3a" secondAttribute="trailing" constant="16" id="sLO-EC-3vR"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="12"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                 </stackView>

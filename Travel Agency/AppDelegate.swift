@@ -25,15 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.overrideUserInterfaceStyle = .light
         }
     
-//        if let userDefData = Cache.getUserData(), userDefData.password != ""  {
+        if let userDefData = Cache.getUserData(), userDefData.password != ""  {
             self.window?.rootViewController = TabBarController()
             
-//        }else {
-//            let vc = LoginVC(nibName: "LoginVC", bundle: nil)
-//            let nav = UINavigationController(rootViewController: vc)
-//            self.window?.rootViewController =  nav
-//            
-//        }
+        }else {
+            let vc = LoginVC(nibName: "LoginVC", bundle: nil)
+            let nav = UINavigationController(rootViewController: vc)
+            self.window?.rootViewController =  nav
+            
+        }
         self.window?.makeKeyAndVisible()
 
         return true

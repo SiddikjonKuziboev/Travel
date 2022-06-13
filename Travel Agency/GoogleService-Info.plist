@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>681906687616-a7fq2k169pe81ei599sipompe8g474iu.apps.googleusercontent.com</string>
+	<string>697612383563-3b2h7s8um8ja2s1giur2v3f7dsel3g2b.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.681906687616-a7fq2k169pe81ei599sipompe8g474iu</string>
+	<string>com.googleusercontent.apps.697612383563-3b2h7s8um8ja2s1giur2v3f7dsel3g2b</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDkLBHIQbP_hMFznyRqdZUM1NiK4lWL_X4</string>
+	<string>AIzaSyCi9oQMNFEHEDXyfa5aRSO-DxbmXKIyTqE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>681906687616</string>
+	<string>697612383563</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Siddikjon.Travel-Agency2</string>
+	<string>Siddikjon.Travel-Agency3</string>
 	<key>PROJECT_ID</key>
-	<string>travel-agency2-f8165</string>
+	<string>agent-adb8f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>travel-agency2-f8165.appspot.com</string>
+	<string>agent-adb8f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:681906687616:ios:d3f87f1b1d9c638f1b2065</string>
+	<string>1:697612383563:ios:0512afbfe03e115c30e4ce</string>
 </dict>
 </plist>

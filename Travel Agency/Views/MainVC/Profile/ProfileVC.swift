@@ -55,7 +55,7 @@ extension ProfileVC : UITableViewDataSource {
         if section == 0 {
             if let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "CustomSectionHeader") as? CustomSectionHeader {
                 if let data = Cache.getUserData() {
-                    header.nameLbl.text = data.name + " " + (data.lastName ?? "")
+                    header.nameLbl.text = data.name
                     header.phoneNumberLbl.text?.formatPhoneNumber(with: "+XXX XX XXX XX XX", phone: data.phoneNumber)
                  }
                 
@@ -75,6 +75,7 @@ extension ProfileVC : UITableViewDataSource {
 extension ProfileVC: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
         return 80
     }
     
@@ -82,7 +83,8 @@ extension ProfileVC: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         switch indexPath.row {
         case 0:
-            print("o")
+            let vc = MyOrdersVC(nibName: "MyOrdersVC", bundle: nil)
+            navigationController?.pushViewController(vc, animated: true)
         case 1:
             let vc = MyFavoriteVC(nibName: "MyFavoriteVC", bundle: nil)
             navigationController?.pushViewController(vc, animated: true)

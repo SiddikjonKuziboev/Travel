@@ -69,7 +69,7 @@ class PlaceDetailVC: UIViewController {
                         days: days,
                         people: peopleCount,
                         place:  placeData?.itenary ?? "",
-                        price: (placeData?.price ?? 0.0)  * Double(peopleCount))
+                        price: (placeData?.price ?? 0.0)  * Double(peopleCount), date: "\(Date())")
             )
 
     }
